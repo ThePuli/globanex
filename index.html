@@ -1,358 +1,326 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmapay</title>
+    <link rel="shortcut icon" href="assets/logo-icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2akc.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <main>
+            <div class="logo desktop animate__animated animate__fadeIn animate__delay-0.5s"><a href="/"><img src="assets/logo-white.png" alt="logo farmapay"></a></div>
+            <div class="logo mobile animate__animated animate__fadeIn animate__delay-0.5s"><a href="/"><img src="assets/logo-icon.svg" alt="logo farmapay"></a></div>
+            <ul class="menu animate__animated animate__fadeIn animate__delay-0.5s">
+                <li><a href="">Descubre farmapay</a>
+                    <ul class="submenu">
+                        <li><a href="#funcionalidades">Funcionalidades</a></li>
+                        <li><a href="#medios">Medios de cobro y comisiones</a></li>
+                        <li><a href="#simulador">Simulación de venta</a></li>
+                        <li><a target="_blank" href="https://crearcuenta.farmapay.com.ar/">Crear cuenta</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Ayuda</a>
+                    <ul class="submenu">
+                        <li><a href="faq.html">Preguntas frecuentes</a></li>
+                        <li><a href="https://odoo.farmapay.com.ar/helpdesk/farmapay-portal-200">Atención al cliente</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </main>
+        <div class="buttons animate__animated animate__fadeIn animate__delay-0.5s">
+            <button class="button--secondary"><a target="_blank" href="https://crearcuenta.farmapay.com.ar/">Crear cuenta</a></button>
+            <button class="button--primary"><a target="_blank" href="https://comercios.farmapay.com.ar/login">Ingresá</a></button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-title animate__animated animate__fadeIn animate__delay-0.5s"><div class="title--primary">Somos </br> la <b class="color--secondary">solución</br> de cobros</b></div><div class="title--secondary">exclusiva para </br> <b class="color--secondary">farmacias</b></div></div>
+        <div class="canvas">
+            <!-- <div class="pos">
+                <img src="assets/POS.svg" alt="" srcset="">
+            </div> -->
+            <div class="dolar">
+                <img id="dolar" src="assets/amount.png" alt="" srcset="">
+            </div>
 
-	<head>
-		<meta charset="UTF-8">
-		<title>Globanex</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Tu Próximo Socio Comercial Internacional Está a Un Click de Distancia" />
-		<meta name="keywords"
-			content="globanex, socio, comercial, internacional, pyme, negocio, frontera, plataforma digital, exportar, importar, exportaciones, importaciones, argentina" />
-		<meta name="author" content="" />
+            <div class="graphic-1"><img id="grafico-barras" src="assets/grafico-de-barras.gif" alt="gráfico de barras" srcset=""></div>
+            <div class="graphic-2"><img id="grafico-lineas" src="assets/grafico-de-linea.gif" alt="gráfico de líneas" srcset=""></div>
+            <a class="button--CTA" target="_blank" href="https://crearcuenta.farmapay.com.ar/">Crear cuenta <i>></i></a>
+        </div>
+    </section>
+    <section class="section--1 animate__animated animate__fadeIn animate__delay-0.5s" id="funcionalidades"><br>
+        <h1 class="color--primary">Cobrá, invertí y gestioná</h1>
+        <h3>el dinero de tu farmacia</h3>
+        <div class="items">
+            <article class="item item--1"><div class="text">Inversión del dinero
+                con mayor rentabilidad
+                y más ganancias.</div>
+                <img id="grafico-card" src="assets/grafico-card.gif" alt="" srcset="">
+            </article>
+            <article class="item item--2"><div class="text">Cobros con todos
+                los medios de pago
+                y mejores plazos
+                de acreditación.</div>
+                <div class="pos">
+                    <img id="estructura-pos" src="assets/POS.svg" alt="" srcset="">
+                    <img id="interior-pos" src="assets/Interior-POS.gif" alt="" srcset="">
+                </div>
+            </article>
+            <article class="item item--3"><div class="text">Gestión de todos
+                los movimientos
+                desde tu cuenta
+                <b>farmapay</b>.</div>
+                <img id="grafico-notebook" src="assets/grafico-notebook.gif" alt="" srcset="">
+            </article>
+        </div>
+    </section>
+    <section class="section--2 animate__animated animate__fadeIn animate__delay-0.5s">
+        <h2>Descubrí los beneficios de tener <b class="highlight color--primary">farmapay</b></h2>
+        <div class="articles">
+        <article class="article--1">
+            <img class="animate__animated animate__fadeInLeft animate__delay-0.5s" src="assets/01.png" alt="" srcset=""> 
+            <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <h4>Visibilidad
+                    y transparencia</h4>
+                <p>Sabés exactamente cuándo se acredita el dinero de tus ventas.</p>
+            </div>
+        </article>
+        <article class="article--2">
+            <img class="animate__animated animate__fadeInLeft animate__delay-0.5s" src="assets/02.png" alt="" srcset=""> 
+            <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <h4>Simplicidad
+                    y gestión</h4>
+                <p>Ahorrá tiempo con conciliaciones
+                    automáticas y descargá reportes
+                    mensuales o diarios para controlar
+                    tus movimientos.</p>
+            </div>
+        </article>
+        <article class="article--3">
+            <img class="animate__animated animate__fadeInLeft animate__delay-0.5s" src="assets/03.png" alt="" srcset=""> 
+            <div class="animate__animated animate__fadeInRight animate__delay-0.5s">
+                <h4>Rentabilidad
+                    y ganancias</h4>
+                <p>Podés invertir el saldo de tu cuenta
+                    y generar rendimientos diarios
+                    y así, tu dinero rinde más.</p>
+            </div>
+        </article>
+    </div>
+    </section>
+    <section class="simulador animate__animated animate__fadeIn animate__delay-0.5s" id="simulador"><br>
+        <h2>Simulá una venta</h2>
+        <h4 class="subtitle">Te mostraremos el plazo de acreditación y el monto
+            que recibirás, sin sorpresas ni cargos ocultos.</h4>
+            <div class="simular">
+                <div class="simulador--izq animate__animated animate__fadeInLeft animate__delay-0.6s">
+                    <div class="input">
+                        <label for="">Monto de tu venta</label>
+                        <div class="subtitle">(ingresá el dinero total de tu venta)</div>
+                        <input type="number" class="amount" value="1.500">
+                    </div>
+                    <div class="select">
+                        <label for="">Medio de cobro</label>
+                        <div class="subtitle">(Seleccioná el medio cobro correspondiente)</div>
+                        <div class="custom-select">   
+                        <select>
+                            <option value="tdd">Tarjeta de débito</option>
+                            <option value="tdc">Tarjeta de crédito</option>
+                            <option value="qr">QR</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="simulador--der animate__animated animate__fadeInRight animate__delay-0.6s">
+                    <div>
+                        <div class="title">Monto a acreditar:</div>
+                        <div class="subtitle">(El dinero que recibirás por tu venta)</div>
+                    </div>
+                <div class="result">
+                        <div class="line total">
+                            <div class="text">Total cobrado </div>
+                            <div class="amount">$5.000</div>
+                        </div>
+                        <div class="line comission">
+                            <div>
+                                <div class="text">Comisión:</div>
+                                <div class="flex-row">
+                                    <!-- <div class="subtitle"><s class="color--disabled">(1,8% + IVA)</s></div> -->
+                                    <div class="subtitle subtitle2">(1,8% + IVA)</div>
+                                </div>
+                            </div>
+                            <div class="flex-row">
+                                <!-- <div class="amount"><s class="color--disabled">- ($90,00)</s></div> -->
+                                <div class="amount amount2">- ($90,00)</div>
+                            </div>
+                        </div>
+                        <div class="line total-send">
+                            <div class="text">Total a recibir: </div>
+                            <div class="amount">$14.500</div>
+                        </div>
+                        <div class="line time">
+                            <div>
+                                <div class="text">Tiempo de acreditación:</div>
+                                <div class="subtitle">(en días hábiles)</div>
+                            </div>
+                            <div class="amount">24hs</div>    
+                        </div>
+                    </div>
+                    <div class="notes">*Estos valores no contemplan IVA ni otros impuestos que pudieran aplicar.</div>
+                </div>
+            </div>
+    </section>
+    <section class="section--3 animate__animated animate__fadeIn animate__delay-0.5s" id="medios"><br>
+        <h2>Comenzá a cobrar con <b class="highlight color--primary"> farmapay </b></h2>
+        <h4>Ofrecemos múltiples opciones de cobro para que sea fácil y rápido.</h4>
+        <div class="articles">
+            <article class="izq animate__animated animate__fadeInLeft animate__delay-0.5s">
+                <div class="title">Smart POS farmapay</div>
+                <p>Cobrá con tarjetas de crédito, débito o QR.</p>
+                <br>
+                <ul>
+                    <li>Tecnología 4G y wifi</li>
+                    <li>Impresión de comprobantes</li>
+                    <li>Acepta tarjetas con chip, banda magnética y contactless</li>
+                </ul>
+                <img class="qr" src="assets/qr.gif" alt="qr" srcset="">
+                <button class="qr"><a target="_blank" href="https://farmapay-n395.vercel.app/precios.html">Conocer más <i>></i></a></button>
+            </article>
+            <article class="der animate__animated animate__fadeInRight animate__delay-0.5s">
+                <div class="title">Link de pago</div>
+                <p>Cobrá a distancia, en menos de un minuto y de forma segura a través de Whatsapp, email y canales digitales.
+                </p>
+                <img class="http" src="assets/http.gif" alt="message http ..." srcset="">
+                <button class="http"><a target="_blank" href="https://farmapay-n395.vercel.app/precios.html">Conocer más <i>></i></a></button>
+            </article>
+        </div>
+    </section>
+    <section class="section--4 animate__animated animate__fadeIn animate__delay-0.5s">
+        <div class="CTA">
+            <div class="content">
+                <h2>Sumá <b class="highlight">famapay</b> a tu farmacia y recibí tu POS <b class="highlight color--secondary">100% bonificado</b></h2>
+                <p>Sin costo de mantenimiento ni apertura.</p>
+            </div>
+            <button class="button--CTA"><a target="_blank" href="https://crearcuenta.farmapay.com.ar/">Crear cuenta </a> <i>></i></button>
+        </div>
+        <div class="map">
+            <div class="content animate__animated animate__fadeInLeft animate__delay-0.5s">
+                <h2>Llegamos a
+                    tu farmacia,
+                    donde sea
+                    que esté</h2>
+                <p><b class="color--secondary">farmapay</b> está presente
+                    en todo el país.</p>
+            </div>
+            <div class="illustration animate__animated animate__fadeIn animate__delay-0.5s"><img id="map" src="assets/map.svg" alt="" srcset=""></div>
+            <div class="point point--1 animate__animated animate__fadeInRight animate__delay-0.6s"><img src="assets/logo-icon.svg" alt="" srcset=""></div>
+            <div class="point point--2 animate__animated animate__fadeInRight animate__delay-0.6s"><img src="assets/logo-icon.svg" alt="" srcset=""></div>
+            <div class="point point--3 animate__animated animate__fadeInRight animate__delay-0.6s"><img src="assets/logo-icon.svg" alt="" srcset=""></div>
+            <div class="point point--4 animate__animated animate__fadeInRight animate__delay-0.6s"><img src="assets/logo-icon.svg" alt="" srcset=""></div>
+            <div class="point point--5 animate__animated animate__fadeInRight animate__delay-0.6s"><img src="assets/logo-icon.svg" alt="" srcset=""></div>
+        </div>
+    </section>
+    <section class="section--5 animate__animated animate__fadeIn animate__delay-0.5s" id="crear-cuenta">
+        <h2>Somos la <b class=" highlight color--primary">plataforma financiera</b> del ecosistema farmacéutico</h2>
+        <button class="button--CTA"><a target="_blank" href="https://crearcuenta.farmapay.com.ar/">Crear cuenta </a> <i>></i></button>
+    </section>
+    <footer>
+        <div class="izq animate__animated animate__fadeInLeft animate__delay-0.5s">
+            <img src="assets/logo.png" alt="" srcset="">
+            <div class="rrss">
+                <a href="https://www.linkedin.com/company/farmapay/"><img src="assets/in.svg" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/farmapay.ar/"><img src="assets/ig.svg" alt="" srcset=""></a>
+                <a href="https://www.youtube.com/@Farmapay"><img src="assets/yt.svg" alt="" srcset=""></a>
+                <a href="https://www.facebook.com/profile.php?id=61563813801653"><img src="assets/fb.svg" alt="" srcset=""></a>
+            </div>
+        </div>
+        <div class="der animate__animated animate__fadeInRight animate__delay-0.5s">
+            <div class="title">Legales</div>
+            <ul>
+                <li><a href="contratos.html">Contratos de adhesión - Ley N° 24.240 <br>de Defensa del Consumido</a></li>
+                <li><a href="precios.html">Comisiones y cargos</a></li>
+                <li><a href="https://odoo.farmapay.com.ar/helpdesk/farmapay-portal-200">Botón de baja</a></li>
+                <li><a href="defensa.html">Defensa de los consumidores</a></li>
+                <li><a href="https://odoo.farmapay.com.ar/helpdesk/farmapay-portal-200">Libro de quejas online</a></li>
+            </ul>
+        </div>
+        <div class="der animate__animated animate__fadeInRight animate__delay-0.5s">
+            <div class="title">Contacto</div>
+            <ul>
+                <li><a href="faq.html">Contacto y preguntas frecuentes</a></li>
+                <li><a href="https://odoo.farmapay.com.ar/helpdesk/farmapay-portal-200">Botón de arrepentimiento</a></li>
+            </ul>
+        </div>
+        <div class="bottom animate__animated animate__fadeIn animate__delay-0.5s">
+            <p class="texto">Soluciones de Pago S.A. ofrece servicios de pago (bajo el código de proveedor número 34519), y no se encuentra autorizada a operar como entidad financiera por el Banco Central de la República Argentina. Los fondos acreditados en las Cuentas de Pago no constituyen depósitos en una entidad financiera, ni cuentan con ninguna de las garantías que tales depósitos puedan gozar de acuerdo con la legislación y reglamentación aplicables en materia de depósitos en entidades financieras.
+            </p>
+        </div>
 
-		<!-- Facebook and Twitter integration -->
-		<meta property="og:title" content="" />
-		<meta property="og:image" content="" />
-		<meta property="og:url" content="" />
-		<meta property="og:site_name" content="" />
-		<meta property="og:description" content="" />
-		<meta name="twitter:title" content="" />
-		<meta name="twitter:image" content="" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:card" content="" />
+        <div class="bottom animate__animated animate__fadeIn animate__delay-0.5s">
+            <img src="assets/image1.webp" alt="" srcset="">
+            <a href="https://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp" ><img src="assets/image2.webp" alt="" width="280" srcset=""></a>
+        </div>
+    </footer>
+    <script>
+        const animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'), // Contenedor
+            renderer: 'svg', // Renderizado en SVG (también puedes usar canvas o html)
+            loop: true, // Si la animación debe repetirse
+            autoplay: true, // Si debe iniciarse automáticamente
+            path: 'assets/qr.json' // Ruta al archivo JSON
+        });
 
-		<!-- Bootstrap  -->
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<!-- Owl Carousel  -->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.theme.default.min.css">
-		<!-- Animate.css -->
-		<link rel="stylesheet" href="css/animate.css">
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-		<!-- Theme style  -->
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+        document.addEventListener("DOMContentLoaded", function () {
+            const inputMonto = document.querySelector(".input input");
+            const selectMedioCobro = document.querySelector(".select select");
+            const amountCobrado = document.querySelector(".result .total .amount");
+            const amountComision = document.querySelector(".result .comission .amount2");
+            const amountRecibir = document.querySelector(".result .total-send .amount");
+            const tiempoAcreditacion = document.querySelector(".result .time .amount");
+            const subtitleComision = document.querySelector(".result .comission .subtitle2");
 
-	<body>
+            const tasasComision = {
+                tdd: { comision: 0.008, tiempo: "24hs", label: "0,8% + IVA" }, // Tarjeta de débito
+                tdc: { comision: 0.018, tiempo: "8 días", label: "1,8% + IVA" }, // Tarjeta de crédito
+                qr: { comision: 0.008, tiempo: "12hs", label: "0,8% + IVA" }   // QR
+            };
 
-		<div id="page-wrap">
+            const calcular = () => {
+                const montoVenta = parseFloat(inputMonto.value) || 0;
+                const medioCobro = selectMedioCobro.value;
 
-			<div id="fh5co-hero-wrapper">
-				<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-					<a class="navbar-brand" href="">
-						<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/logo.png"
-							alt="Smartphone">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+                if (!tasasComision[medioCobro]) {
+                    return;
+                }
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav nav-items-right ml-auto">
-							<div class="social-icons-header">
-								<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
-									onclick="$('#fh5co-download').goTo();return false;">Descargar app</button>
-							</div>
-						</ul>
-					</div>
-				</nav>
+                const { comision, tiempo, label } = tasasComision[medioCobro];
 
-				<div class="container fh5co-hero-inner">
-					<p class="animated fadeIn wow text-uppercase" data-wow-delay="0.67s">
-						<b>
-							Tu próximo Socio Comercial Internacional está a un click de distancia
-						</b>
-					</p>
-					<h1 class="animated fadeIn wow" data-wow-delay="0.4s">
-						TÚ NEGOCIO, MÁS ALLÁ DE LAS FRONTERAS
-					</h1>
-					<p class="animated fadeIn wow" data-wow-delay="0.67s">
-						Globanex es la plataforma digital que permite a PYMEs exportar e importar sin complicaciones,
-						conectándote con compradores, vendedores y expertos logísticos verificados globalmente. Desde la
-						negociación hasta la entrega final, integramos todo el proceso en un solo lugar.
-					</p>
-					<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
-						onclick="$('#fh5co-features').goTo();return false;">Registrate ahora</button>
-					<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/banner.png"
-						alt="Smartphone">
-				</div>
+                // Calcular comisiones
+                const montoComision = montoVenta * comision;
+                const iva = montoComision * 0.21; // 21% de IVA sobre la comisión
+                const totalDescuento = montoComision + iva;
+                const totalRecibir = montoVenta - totalDescuento;
 
+                // Actualizar valores en el DOM
+                amountCobrado.textContent = `$${montoVenta.toFixed(2)}`;
+                amountComision.textContent = `- ($${totalDescuento.toFixed(2)})`;
+                amountRecibir.textContent = `$${totalRecibir.toFixed(2)}`;
+                tiempoAcreditacion.textContent = tiempo;
+                subtitleComision.textContent = `(${label})`;
+            };
 
-			</div> <!-- first section wrapper -->
+            // Eventos
+            inputMonto.addEventListener("input", calcular);
+            selectMedioCobro.addEventListener("change", calcular);
+        });
 
-
-			<!-- ==========================================================================================================
-														ADVANTAGES
-			========================================================================================================== -->
-
-			<div class="fh5co-advantages-outer">
-				<div class="container">
-					<div class="fh5co-reviews-outer">
-						<div class="position-relative mt-5 text-center">
-							<h5>Lleva</h5>
-							<h1>TÚ NEGOCIO AL MUNDO</h1>
-							<h5>sin complicaciones</h5>
-						</div>
-						<div class="container fh5co-reviews-inner mt-5">
-							<div class="row justify-content-center d-flex align-items-center">
-								<div class="col-sm-3 testimonial-2 wow fadeInLeft animated" data-wow-delay="0.67s">
-									<div class="card mb-5">
-										<div class="card-body">
-											<p class="testimonial-desc">
-												Acceso Inmediato a Mercados Globales
-											</p>
-											<small class="testimonial-2 text-left">
-												Encuentra y conecta con socios comerciales verificados en todo el mundo sin
-												costosos
-												viajes de prospección ni intermediarios. Ahorra tiempo y dinero expandiendo
-												tu
-												negocio globalmente.
-											</small>
-										</div>
-									</div>
-
-									<br>
-
-									<div class="card mt-5">
-										<div class="card-body">
-											<p class="testimonial-desc">
-												Seguridad Financiera en cada Transacción
-											</p>
-											<small class="testimonial-2 text-left">
-												Olvídate de los riesgos de pago y fraude. Nuestro sistema de pagos seguros
-												protege
-												tu inversión en todo momento.
-											</small>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4 d-flex justify-content-center wow fadeIn animated container"
-									data-wow-delay="0.67s">
-									<img width="250%" class="" data-wow-delay="1s" src="img/review.png">
-								</div>
-								<div class="col-sm-3 testimonial-2 wow fadeInRight animated" data-wow-delay="0.67s">
-									<div class="card">
-										<div class="card-body">
-											<p class="testimonial-desc">
-												⁠Logística Sin Dolor de Cabeza
-											</p>
-											<small class="testimonial-author text-left">
-												Gestiona la logística de tus envíos en un solo lugar. Con Globanex, conecta
-												con
-												freight forwarders y coordina cada etapa de transporte y aduana sin
-												esfuerzo.
-											</small>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- ==========================================================================================================
-														SLIDER
-			========================================================================================================== -->
-
-			<h1 id="fh5co-features" class="text-center">LO QUE HACE ÚNICO A GLOBANEX</h1>
-			<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-				<div class="container fh5co-slider-inner">
-					<div class="owl-carousel owl-theme">
-						<div class="item">
-							<div class="col-sm-12">
-								<img class="grid-image" src="img/1.png" alt="Icon-1">
-								<h1 class="grid-title text-left">Sistema de Match Inteligente</h1>
-								<p class="grid-desc">
-									Sistema de alertas inteligente que te notifica cuando hay un socio comercial ideal para
-									ti, facilitando el contacto inmediato sin intermediarios.
-								</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-sm-12">
-								<img class="grid-image" src="img/2.png" alt="Icon-2">
-								<h1 class="grid-title text-left">⁠Chat y Negociación en Vivo</h1>
-								<p class="grid-desc">
-									Cierra acuerdos con rapidez y eficacia mediante chat en vivo, llamadas y videollamadas
-									integradas en la plataforma.
-								</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-sm-12">
-								<img class="grid-image" src="img/3.png" alt="Icon-3">
-								<h1 class="grid-title text-left">Pagos Seguros</h1>
-								<p class="grid-desc">
-									Sistema de garantía que retiene el pago hasta que ambas partes confirmen el cumplimiento
-									de lo acordado.
-								</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-sm-12">
-								<img class="grid-image" src="img/4.png" alt="Icon-2">
-								<h1 class="grid-title text-left">Opción de Gestión Logística y Aduanera</h1>
-								<p class="grid-desc">
-									Globanex ofrece la posibilidad de contratar freight forwarders verificados dentro de la
-									plataforma para gestionar todos los aspectos logísticos y aduaneros de tu operación.
-								</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-sm-12">
-								<img class="grid-image" src="img/5.png" alt="Icon-1">
-								<h1 class="grid-title text-left">Calificaciones Verificadas</h1>
-								<p class="grid-desc">
-									Sistema de reputación que garantiza la confiabilidad de cada participante en la
-									plataforma.
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-
-			<!-- ==========================================================================================================
-														FEATURES
-			========================================================================================================== -->
-
-			<div id="fh5co-reviews" class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
-			<div class="fh5co-features-outer">
-				<div class="container">
-					<div class="position-relative mt-5 text-center">
-						<h1>DE LA CONEXIÓN A LA ENTREGA</h1>
-						<h5>así funciona Globanex</h5>
-					</div>
-					<div class="row fh5co-features-grid-columns">
-
-						<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
-							<div class="col-sm-image-container">
-								<img class="img-float-left" src="img/redes-sociales.gif" alt="smartphone-1">
-							</div>
-						</div>
-						<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-							<h1>encuentra y valida tu operación</h1>
-							<p>
-								Crea tu perfil y recibe alertas de socios comerciales potenciales.
-							</p>
-							<p>
-								¿Nuevo en comercio exterior o explorando nuevos productos?
-							</p>
-							<p>
-								Solicita cotizaciones a freight forwarders verificados en nuestra red para conocer
-								requisitos y costos logísticos.
-							</p>
-						</div>
-
-						<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-							<h1>negocia con confianza</h1>
-							<p>
-								Utiliza nuestro chat con videollamada integrado para acordar términos como precio y fechas
-								de entrega en tiempo real, reduciendo drásticamente los tiempos de negociación.
-							</p>
-						</div>
-						<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
-							<img class="img-float-right" src="img/charlar.gif" alt="smartphone-2">
-						</div>
-
-						<div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s">
-							<div class="col-sm-image-container">
-								<img class="" src="img/apreton-de-manos.gif" alt="smartphone-3">
-							</div>
-						</div>
-						<div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-							<h1>asegura y coordina</h1>
-							<p>
-								Realiza el pago de manera segura a través de la plataforma.
-							</p>
-							<p>
-								Coordina la logística con el freight forwarder seleccionado previamente, o integra los datos
-								de seguimiento de tu proveedor logístico habitual para mantener la transparencia.
-							</p>
-						</div>
-
-						<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-							<h1>monitorea y confirma</h1>
-							<p>
-								Dale seguimiento a tu envío en tiempo real y confirma el cumplimiento de términos para
-								liberar el pago final de manera segura.
-							</p>
-						</div>
-						<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
-							<img class="" src="img/camion.gif" alt="smartphone-2">
-						</div>
-
-					</div> <!-- row -->
-
-				</div>
-			</div>
-
-
-			<!-- ==========================================================================================================
-													BOTTOM
-		========================================================================================================== -->
-
-			<div id="fh5co-download" class="fh5co-bottom-outer">
-				<div class="overlay">
-					<div class="container fh5co-bottom-inner">
-						<div class="row">
-							<div class="col-sm-6">
-								<h1>Registrate ahora</h1>
-								<p>
-									Únete a Globanex y comienza hoy tu expansión global simplificada
-								</p>
-								<a class="wow fadeIn animated" data-wow-delay="0.25s" href="#"><img class="app-store-btn"
-										src="img/app-store-icon.png" alt="App Store Icon"></a>
-								<a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="google-play-btn"
-										src="img/google-play-icon.png" alt="Google Play Icon"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- ==========================================================================================================
-												SECTION 7 - SUB FOOTER
-		========================================================================================================== -->
-
-			<footer class="footer-outer">
-				<div class="container footer-inner">
-
-					<div class="footer-three-grid wow fadeIn animated" data-wow-delay="0.66s">
-						<div class="column-1-3">
-							<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s"
-								src="img/logo-white.svg" alt="Smartphone">
-						</div>
-						<div class="column-2-3">
-							<p class="copyright">&copy; 2024 Globanex. All rights reserved.</p>
-						</div>
-						<div class="column-3-3">
-							<div class="social-icons-footer">
-								<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-								<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</footer>
-		</div> <!-- main page wrapper -->
-
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
-
+    </script>
+</body>
 </html>
