@@ -633,6 +633,7 @@ html {
   .fh5co-advantages-outer {
     margin-top: 50px;
     padding-bottom: 0;
+    padding: 0;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
@@ -662,7 +663,7 @@ html {
   }
 
   .fh5co-features-outer .sm-6-content p {
-    width: 100%;
+    width: 100% !important;
   }
 
   .footer-outer .footer-nav ul li {
@@ -676,17 +677,12 @@ html {
 }
 @media screen and (max-width: 993px) {
   .fh5co-features-grid-columns .col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 30px auto;
-    text-align: center;
+    text-align: left;
   }
 
   .fh5co-features-outer .col-sm-6 .col-sm-image-container {
     position: relative;
-    width: 295px !important;
+    width: 348px !important;
     text-align: center;
     margin: 15px auto 0;
   }
@@ -746,10 +742,10 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .fh5co-features-grid-columns .in-order-4 {
+  .fh5co-features-grid-columns .in-order-4 .in-order-6 {
     order: 1;
   }
-  .fh5co-features-grid-columns .in-order-3 {
+  .fh5co-features-grid-columns .in-order-3 .in-order-5 {
     order: 2;
   }
 
@@ -843,6 +839,7 @@ html {
 
   .fh5co-slider-outer .item img {
     height: 300px;
+    place-self: center;
   }
 
   .fh5co-reviews-outer {
@@ -935,8 +932,7 @@ html {
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
     height: 240px;
-    top: 420px;
-    margin-top: 70px;
+    top: 1100px;
   }
 
   .social-icons-header i:first-of-type {
