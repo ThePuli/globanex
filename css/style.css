@@ -245,11 +245,11 @@ html {
   margin-top: 80px;
 }
 .fh5co-features-outer .col-sm-6 img {
-  height: 350px;
+  height: 500px;
 }
 .fh5co-features-outer .sm-6-content {
-  margin-top: 150px;
   position: relative;
+  align-content: center;
 }
 .fh5co-features-outer .sm-6-content h1 {
   color: #234197;
@@ -263,11 +263,9 @@ html {
   font-weight: 500;
   font-size: 14.5px;
   line-height: 1.8em;
-  width: 450px;
 }
 .fh5co-features-outer .col-sm-6 .col-sm-image-container {
   position: relative;
-  width: 300px;
   display: flex;
   float: right;
 }
