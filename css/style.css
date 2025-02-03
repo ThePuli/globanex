@@ -12,6 +12,7 @@ html {
 
 .download-btn-first {
   background: #f7f7f7;
+  font-weight: 500;
 }
 
 .download-btn-first:hover {
@@ -98,11 +99,10 @@ html {
 }
 .fh5co-hero-inner > p {
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
-  line-height: 2em;
 }
 .fh5co-hero-inner .download-btn-first {
   font-size: 15px;
@@ -113,7 +113,7 @@ html {
 .fh5co-hero-inner .features-btn-first {
   font-size: 15px;
   padding: 8px 13px;
-  font-weight: 400;
+  font-weight: 500;
   background: #234197;
   color: #fff;
   display: flex;
@@ -122,7 +122,7 @@ html {
 .fh5co-hero-inner .fh5co-hero-smartphone {
   position: absolute;
   position-area: center;
-  margin-top: 20vw;
+  margin-top: 21vw;
   height: 650px;
 }
 
