@@ -242,7 +242,13 @@ html {
   padding-bottom: 2rem;
   border-radius: 20px 0 0 20px;
 }
-
+.curved-bg-div-2-title {
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 10px;
+  background: #3B61AA;
+  background: linear-gradient(270deg, #3B61AA 0%, rgb(255 255 255 / 0%) 100%);
+}
 .curved-bg-div-2 {
   background-color: #DEF3FE;
   padding-top: 2rem;
@@ -256,7 +262,14 @@ html {
   padding-bottom: 2rem;
   border-radius: 20px 0 0 20px;
 }
-
+.curved-bg-div-3-title {
+  float: right;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 10px;
+  background: #1BC2C5;
+  background: linear-gradient(90deg, #1BC2C5 0%, rgba(255,255,255,0) 100%);
+}
 .curved-bg-div-4 {
   background-color: #E8FFFE;
   padding-top: 2rem;
@@ -270,12 +283,18 @@ html {
   padding-bottom: 2rem;
   border-radius: 20px 0 0 20px;
 }
-
 .curved-bg-div-6 {
   background-color: #E2F1EC;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-radius: 0px 20px 20px 0;
+}
+.curved-bg-div-6-title {
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 10px;
+  background: rgb(59, 143, 151);
+  background: linear-gradient(270deg, rgba(59, 143, 151, 1) 0%, rgb(255 255 255 / 0%) 100%);
 }
 
 .curved-bg-div-7 {
@@ -284,7 +303,14 @@ html {
   padding-bottom: 2rem;
   border-radius: 20px 0 0 20px;
 }
-
+.curved-bg-div-7-title {
+  float: right;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 10px;
+  background: rgb(57,96,172);
+  background: linear-gradient(90deg, rgba(57,96,172,1) 0%, rgba(255,255,255,0) 100%);
+}
 .curved-bg-div-8 {
   background-color: #EEF2F7;
   padding-top: 2rem;
@@ -307,7 +333,6 @@ html {
   align-content: center;
 }
 .fh5co-features-outer .sm-6-content h1 {
-  color: #234197;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
