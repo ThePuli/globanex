@@ -21,7 +21,7 @@ html {
 }
 
 .features-btn-first {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .features-btn-first:hover {
@@ -111,9 +111,9 @@ html {
   color: #234197;
 }
 .fh5co-hero-inner .features-btn-first {
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 13px;
-  font-weight: 500;
+  font-weight: 400;
   background: #234197;
   color: #fff;
   display: flex;
